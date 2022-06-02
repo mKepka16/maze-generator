@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze generator</title>
+    <script src="maze.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="options">
+      <label>
+        Walls color: <input type="color" class="wallsColor" value="#000000" />
+      </label>
+      <label>
+        Path color: <input type="color" class="pathColor" value="#ffffff" />
+      </label>
+      <label>
+        Unexplored edges color:
+        <input type="color" class="unexploredEdgesColor" value="#ff0000" />
+      </label>
+      <label>
+        Walls thickness:
+        <input type="number" class="wallsThickness" value="4" />
+      </label>
+      <label>
+        Path size: <input type="number" class="pathSize" value="50" />
+      </label>
+      <label>
+        Exploring speed:
+        <input type="number" class="exploringSpeed" value="10" step="1" />
+      </label>
+      <label>
+        Instant generate:
+        <input type="checkbox" class="instantGenerate" />
+      </label>
+      <button class="generateBtn">Generate</button>
+    </div>
+  </body>
+</html>

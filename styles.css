@@ -1,0 +1,33 @@
+
+body {
+  background: #000;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  display: flex;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+label {
+  color: whitesmoke;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 26px;
+}
+
+button {
+  font-size: 24px;
+  margin: 10px 0;
+  padding: 10px;
+}
